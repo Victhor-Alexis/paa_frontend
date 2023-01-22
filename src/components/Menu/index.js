@@ -15,7 +15,7 @@ const Menu = () => {
         </svg>
       </div>
 
-      <div className='sidebar' style={{display: {openMenu : "block" ? "none"}}}>
+      <div className='sidebar'>
 
       </div>
     </div>
