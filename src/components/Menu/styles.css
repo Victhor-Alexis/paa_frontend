@@ -1,0 +1,17 @@
+.menu {
+    position: absolute;
+    z-index: 1;
+    background-color: blueviolet;
+    width: 16rem;
+}
+
+.menu .icon {
+    position: absolute;
+    cursor: pointer;
+    left: 3rem;
+    top: 3rem;
+}
+
+.menu .sidebar {
+    
+}
