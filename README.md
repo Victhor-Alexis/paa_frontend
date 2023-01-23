@@ -1,3 +1,5 @@
+# Para rodar, no diretório do projeto insira o comando yarn e, depois, yarn start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
