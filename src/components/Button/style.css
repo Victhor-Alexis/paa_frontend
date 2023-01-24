@@ -1,4 +1,4 @@
-button {
+.blackBtn {
     background-color: #2E2B2B;
     color: #fff;
     width: 10.5rem;
@@ -11,6 +11,6 @@ button {
     border: none;
 }
 
-button:hover {
+.blackBtn:hover {
     background-color: #000;
 }

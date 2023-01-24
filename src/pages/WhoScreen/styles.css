@@ -20,7 +20,6 @@
     font-weight: normal;
     font-size: 96px;
 }
-
 .container_who .central_block .asking_popup {
     position: absolute;
     left: 140px;
@@ -40,10 +39,29 @@
     margin-top: 12rem;
 }
 
-.container_who .central_block .question_options {
+.container_who .central_block .question_options, .send_character_name {
     margin-top: 3rem;
     display: flex;
     flex-wrap: nowrap;
     width: 25rem;
     justify-content: space-between;
+    align-items: center;
+}
+
+.container_who .central_block .send_character_name {
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+.send_character_name input {
+    margin: 0 0.3rem;
+    font-size: 21px;
+    padding: 10px;
+    min-height: 4rem;
+}
+
+.send_character_name button {
+    border: none;
+    cursor: pointer;
+    background: none;
 }

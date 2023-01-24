@@ -3,7 +3,7 @@ import './style.css'
 
 const Button = ({children, action = () => {}}) => {
   return (
-    <button onClick={action}>{children}</button>
+    <button className="blackBtn" onClick={action}>{children}</button>
   )
 }
 
