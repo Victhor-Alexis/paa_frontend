@@ -46,7 +46,9 @@ const WhoScreen = () => {
         {
           hideButtonsShowInput &&
           <div className="send_character_name">
-            <input type="text" placeholder='Nome do seu personagem...'/>
+            <input type="text" placeholder='Nome do seu personagem...'/> 
+            <input type="text" placeholder='Idade do seu personagem...'/>
+            <input type="text" placeholder='Cor de cabelo do seu personagem...'/>
             <button type='submit' onClick={() => navigate('/')}>
               <svg width="114" height="90" viewBox="0 0 114 114" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M47.9275 74.0525L54.625 80.75L78.375 57L54.625 33.25L47.9275 39.9475L60.1825 52.25H14.25V61.75H60.1825L47.9275 74.0525ZM90.25 14.25H23.75C21.2304 14.25 18.8141 15.2509 17.0325 17.0325C15.2509 18.8141 14.25 21.2304 14.25 23.75V42.75H23.75V23.75H90.25V90.25H23.75V71.25H14.25V90.25C14.25 92.7696 15.2509 95.1859 17.0325 96.9675C18.8141 98.7491 21.2304 99.75 23.75 99.75H90.25C95.475 99.75 99.75 95.475 99.75 90.25V23.75C99.75 18.525 95.475 14.25 90.25 14.25Z" fill="#2E2B2B"/>

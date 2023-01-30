@@ -19,7 +19,7 @@ const Menu = () => {
         <div className='sidebar'>
           <ul className='options'>
             <a href="/">Início</a>
-            <a href="/">Regras</a>
+            <a href="/rules">Regras</a>
           </ul>
 
           <div className="voltar" onClick={() => setOpenMenu(!openMenu)}>

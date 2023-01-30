@@ -1,0 +1,26 @@
+.Rules{
+    width: 80%;
+    height: 20%;
+    margin-top: -20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Rules h1{
+    font-family: 'Griffy', cursive;
+    color: #2E2B2B;
+    font-weight: normal;
+    font-size: 96 px;
+    justify-content: center;
+}
+
+.Rules text{
+    font-family: 'Times New Roman';
+    color: #2E2B2B;
+    font-weight: normal;
+    font-size:  36 px;
+    margin-top: 2%;
+}
+
+
